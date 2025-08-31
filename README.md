@@ -59,4 +59,4 @@ You can deploy this app for free using **GitHub Pages** or **Vercel**:
 - [Vercel](https://vercel.com/)
 
 ## License
-This project is licensed under the MIT License.
+This project is private
