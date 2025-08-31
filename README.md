@@ -8,6 +8,45 @@ A mobile-first web app that adapts its functionality based on device orientation
 - **Portrait (upside down):** ⌛ Timer  
 - **Landscape (upside down):** 🌤 Weather of the Day  
 
+## 📸 Screenshots
+
+### ⏰ Portrait Mode (Upright) – Alarm Clock
+<p align="center">
+  <img src="./docs/screens/alarmclock/ac-1.png" width="30%" />
+  <img src="./docs/screens/alarmclock/ac-2.png" width="30%" />
+  <img src="./docs/screens/alarmclock/ac-3.png" width="30%" />
+</p>
+
+---
+
+### ⏱ Landscape Mode (Right-Side Up) – Stopwatch
+<p align="center">
+  <img src="./docs/screens/stopwatch/sc-1.png" width="45%" />
+  <img src="./docs/screens/stopwatch/sc-2.png" width="45%" />
+</p>
+
+---
+
+### ⌛ Portrait Mode (Upside Down) – Timer
+<p align="center">
+  <img src="./docs/screens/timer/t-1.png" width="30%" />
+  <img src="./docs/screens/timer/t-2.png" width="30%" />
+  <img src="./docs/screens/timer/t-3.png" width="30%" />
+</p>
+
+---
+
+### 🌤 Landscape Mode (Upside Down) – Weather of the Day
+<p align="center">
+  <img src="./docs/screens/weather/w-1.png" width="60%" />
+</p>
+
+---
+
+## 🎥 Demo Video
+You can watch the demo here:  
+[Orientix Demo](./docs/videos/orientix-demo.mp4)
+
 ## Getting Started
 
 Follow these steps to set up and run the project locally.
@@ -53,10 +92,16 @@ npm run build
 npm run preview
 ```
 
+### Build for Deployment as GH Pages
+```bash
+rm -rf dist
+npm run build
+npm run deploy
+```
+
 ## Deployment
-You can deploy this app for free using **GitHub Pages** or **Vercel**:
+You can deploy this app for free using **GitHub Pages**:
 - [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
 
 ## License
-This project is private
+This project is privately managed.
